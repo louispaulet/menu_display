@@ -1,7 +1,28 @@
-document.addEventListener('DOMContentLoaded', function () {
-    const menuContainer = document.querySelector('.menu-container');
+document.addEventListener("DOMContentLoaded", function () {
+    const restaurantList = document.querySelector(".restaurant-list");
+    const menuDisplay = document.querySelector(".menu-display");
 
-    menuData.forEach(menu => {
+    // Generate restaurant list
+    menuData.forEach((menu, index) => {
+        const restaurantItem = document.createElement("li");
+        const restaurantLink = document.createElement("a");
+        restaurantLink.href = "#";
+        restaurantLink.textContent = `${menu.restaurant_name} - ${menu.location}`;
+
+        restaurantLink.addEventListener("click", (e) => {
+            e.preventDefault();
+            displayMenu(index);
+        });
+
+        restaurantItem.appendChild(restaurantLink);
+        restaurantList.appendChild(restaurantItem);
+    });
+
+
+    function displayMenu(index) {
+        const menu = menuData[index];
+        menuDisplay.innerHTML = ""; // Clear previous menu display
+
         const menuCard = document.createElement('div');
         menuCard.classList.add('menu-card');
 
@@ -28,7 +49,6 @@ document.addEventListener('DOMContentLoaded', function () {
             const courseItem = document.createElement('li');
             courseItem.classList.add('course-item');
 
-           
             const courseTitle = document.createElement('h4');
             courseTitle.classList.add('course-title');
             courseTitle.textContent = course.course;
@@ -59,6 +79,9 @@ document.addEventListener('DOMContentLoaded', function () {
         grandTotal.textContent = `Grand Total: €${menu.grand_total}`;
         menuCard.appendChild(grandTotal);
 
-        menuContainer.appendChild(menuCard);
-    });
+        menuDisplay.appendChild(menuCard);
+    }
+
+    // Display the first menu by default
+    displayMenu(0);
 });
