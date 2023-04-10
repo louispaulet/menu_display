@@ -82,7 +82,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         const grandTotal = document.createElement('p');
         grandTotal.classList.add('grand-total');
-        grandTotal.textContent = `Grand Total: €${menu.grand_total}`;
+        grandTotal.textContent = `Grand Total: €${menu.grand_total} *`;
         menuCard.appendChild(grandTotal);
 
         menuDisplay.appendChild(menuCard);
