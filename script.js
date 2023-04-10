@@ -68,10 +68,12 @@ document.addEventListener("DOMContentLoaded", function () {
             coursePrice.textContent = `Price: €${course.price}`;
             courseItem.appendChild(coursePrice);
 
-            const winePairing = document.createElement('p');
+           const winePairing = document.createElement('p');
             winePairing.classList.add('wine-pairing');
-            winePairing.textContent = `Wine Pairing: ${course.wine_pairing}`;
+            winePairing.innerHTML = `Wine Pairing: ${createWineLink(course.wine_pairing, course.wine_pairing)}`;
             courseItem.appendChild(winePairing);
+
+
 
             courseList.appendChild(courseItem);
         });
@@ -93,6 +95,17 @@ document.addEventListener("DOMContentLoaded", function () {
 function toggleMenu() {
   const sideMenu = document.querySelector('.side-menu');
   sideMenu.classList.toggle('open');
+}
+
+function createWineLink(wineName, displayText) {
+  // Replace spaces with plus signs in the wine name
+  wineName = wineName.replace(/ /g, '+');
+
+  // Create the Wine-Searcher link
+  var link = 'https://www.wine-searcher.com/find/' + wineName;
+
+  // Return the hyperlink as a string with the display text
+  return '<a href="' + link + '" target="_blank">' + displayText + '</a>';
 }
 
 
