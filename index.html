@@ -9,20 +9,26 @@
 <body>
     <header>
         <h1>Exquisite Menus</h1>
+        <button class="burger-menu" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
     </header>
 
-    <div class="menu-container">
+    <nav class="side-menu">
         <ul class="restaurant-list">
             <!-- Restaurant list - links will be generated dynamically -->
         </ul>
+    </nav>
+
+    <div class="menu-container">
         <div class="menu-display">
             <!-- Menu display container - menu card will be generated dynamically -->
         </div>
     </div>
 
-
     <script src="menuData.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
-

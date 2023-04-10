@@ -85,3 +85,11 @@ document.addEventListener("DOMContentLoaded", function () {
     // Display the first menu by default
     displayMenu(0);
 });
+
+function toggleMenu() {
+  const sideMenu = document.querySelector('.side-menu');
+  sideMenu.classList.toggle('open');
+}
+
+
+
