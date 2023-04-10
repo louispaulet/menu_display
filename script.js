@@ -1,6 +1,8 @@
 document.addEventListener("DOMContentLoaded", function () {
     const restaurantList = document.querySelector(".restaurant-list");
     const menuDisplay = document.querySelector(".menu-display");
+    document.querySelector('.random_menu_btn').addEventListener('click', () => showRandomMenu())
+
 
     // Generate restaurant list
     menuData.forEach((menu, index) => {
@@ -20,8 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
         restaurantItem.appendChild(restaurantLink);
         restaurantList.appendChild(restaurantItem);
     });
-
-
+    
     function displayMenu(index) {
         const menu = menuData[index];
         menuDisplay.innerHTML = ""; // Clear previous menu display
@@ -86,11 +87,19 @@ document.addEventListener("DOMContentLoaded", function () {
         menuCard.appendChild(grandTotal);
 
         menuDisplay.appendChild(menuCard);
+        
     }
+    
+    function showRandomMenu() {
+        const randomIndex = Math.floor(Math.random() * menuData.length);
+        displayMenu(randomIndex);
+    }
+
 
     // Display the first menu by default
     displayMenu(0);
 });
+
 
 function toggleMenu() {
   const sideMenu = document.querySelector('.side-menu');
@@ -107,6 +116,10 @@ function createWineLink(wineName, displayText) {
   // Return the hyperlink as a string with the display text
   return '<a href="' + link + '" target="_blank">' + displayText + '</a>';
 }
+
+
+
+
 
 
 
