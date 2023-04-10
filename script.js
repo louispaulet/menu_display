@@ -24,7 +24,8 @@ document.addEventListener("DOMContentLoaded", function () {
         menuDisplay.innerHTML = ""; // Clear previous menu display
 
         const menuCard = document.createElement('div');
-        menuCard.classList.add('menu-card');
+        menuCard.classList.add('menu-card', 'mx-auto');
+
 
         const menuTitle = document.createElement('h2');
         menuTitle.textContent = menu.restaurant_name;
