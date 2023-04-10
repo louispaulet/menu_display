@@ -1439,6 +1439,472 @@ const menuData = [
         ],
         "grand_total": 335,
         "dining_room_description": "Sushi Zenkai offers an extraordinary Omakase experience, led by world-renowned Chef Takashi Saito. The intimate, minimalist dining room features a beautiful hinoki wood sushi counter, where guests can watch the masterful craftsmanship of the chef up close. The attentive staff ensures an unparalleled sushi experience that will leave guests in awe."
+    },
+    
+    {
+        "location": "Four Seasons Mountain Retreat, Swiss Alps",
+        "restaurant_name": "Alpine Heights",
+        "chef_name": "Chef Lukas Baumgartner",
+        "tasting_menu": [
+            {
+                "course": "Amuse-Bouche",
+                "description": "Mini raclette toast with cornichon and pearl onion",
+                "price": 20,
+                "wine_pairing": "Champagne Ruinart Blanc de Blancs Brut"
+            },
+            {
+                "course": "Appetizer",
+                "description": "Swiss chard and gruyère tart with a walnut crust",
+                "price": 35,
+                "wine_pairing": "Fendant Clos de la Morge Domaine Rouvinez 2019"
+            },
+            {
+                "course": "Soup",
+                "description": "Creamy leek and potato soup with crispy rösti croutons",
+                "price": 30,
+                "wine_pairing": "Sauvignon Blanc Domaine Jean-René Germanier 2020"
+            },
+            {
+                "course": "Fish",
+                "description": "Arctic char with brown butter, capers, and roasted root vegetables",
+                "price": 55,
+                "wine_pairing": "Chasselas Domaine de Autecour 2018"
+            },
+            {
+                "course": "Meat",
+                "description": "Slow-braised venison in red wine sauce with spätzle and braised red cabbage",
+                "price": 65,
+                "wine_pairing": "Pinot Noir Domaine Jean-René Germanier Cayas 2017"
+            },
+            {
+                "course": "Cheese",
+                "description": "Selection of Swiss cheeses with fruit compote and artisanal bread",
+                "price": 40,
+                "wine_pairing": "Humagne Rouge Domaine de Beudon 2018"
+            },
+            {
+                "course": "Dessert",
+                "description": "Dark chocolate fondue with fresh fruits and homemade marshmallows",
+                "price": 25,
+                "wine_pairing": "Eiswein Domaine des Muses 2017"
+            }
+        ],
+        "grand_total": 270,
+        "dining_room_description": "Perched atop the Swiss Alps, Alpine Heights offers a breathtaking dining experience with panoramic views of snow-capped peaks and pristine valleys. The cozy and intimate dining room features rustic timber beams, a roaring fireplace, and plush velvet seating. The exquisite menu showcases the best of Swiss cuisine, elevated by modern techniques and seasonal, locally sourced ingredients."
+    },
+      {
+        "location": "Four Seasons Hotel, New New York, Futurama",
+        "restaurant_name": "Galactic Delights",
+        "chef_name": "Chef Zilgax-5",
+        "tasting_menu": [
+            {
+                "course": "Amuse-Bouche",
+                "description": "Spherified root beer float with molecularly-stabilized whipped cream",
+                "price": 100,
+                "wine_pairing": "Gamma-7 Sparkling Nebula Wine"
+            },
+            {
+                "course": "Appetizer",
+                "description": "Microgravity-grown salad with asteroidal vinaigrette and solar-dried tomatoes",
+                "price": 150,
+                "wine_pairing": "Proxima Centauri Chardonnay 2998"
+            },
+            {
+                "course": "Soup",
+                "description": "Cream of Martian potato soup with levitating croutons",
+                "price": 120,
+                "wine_pairing": "Algol Binary Star Sauvignon Blanc 2999"
+            },
+            {
+                "course": "Fish",
+                "description": "Pan-seared Venusian mackerel with lunar seaweed and comet dust",
+                "price": 200,
+                "wine_pairing": "Betelgeuse Supernova Riesling 2997"
+            },
+            {
+                "course": "Meat",
+                "description": "Roasted Plutonian quail with Andromeda asparagus and wormhole truffle sauce",
+                "price": 250,
+                "wine_pairing": "Kepler-186f Pinot Noir 2996"
+            },
+            {
+                "course": "Cheese",
+                "description": "Selection of artisanal cheeses from the Milky Way with stardust crackers",
+                "price": 180,
+                "wine_pairing": "Gliese 581g Merlot 2995"
+            },
+            {
+                "course": "Dessert",
+                "description": "Dark matter chocolate mousse with freeze-dried raspberry coulis and supernova sugar",
+                "price": 150,
+                "wine_pairing": "Sirius Star System Ice Wine 2994"
+            }
+        ],
+        "grand_total": 1050,
+        "dining_room_description": "Galactic Delights offers an out-of-this-world dining experience, set in the heart of New New York's Futurama. The sleek and modern dining room boasts panoramic views of the city's futuristic skyline, with hovering vehicles and interstellar traffic visible through the floor-to-ceiling windows. The menu showcases innovative fusion dishes, utilizing exotic ingredients sourced from across the universe, prepared with cutting-edge techniques that blur the line between science and culinary art."
+    },
+    {
+        "location": "Four Seasons Casino, South of France",
+        "restaurant_name": "Le Festin Opulent",
+        "chef_name": "Chef Antoine Dubois",
+        "tasting_menu": [
+            {
+                "course": "Amuse-Bouche",
+                "description": "24-karat gold leaf foie gras torchon with black truffle shavings",
+                "price": 150,
+                "wine_pairing": "Dom Pérignon Vintage 2015"
+            },
+            {
+                "course": "Appetizer",
+                "description": "Caviar-topped oysters with champagne sabayon and edible pearls",
+                "price": 300,
+                "wine_pairing": "Krug Clos du Mesnil Blanc de Blancs 2013"
+            },
+            {
+                "course": "Soup",
+                "description": "Lobster bisque with cognac and saffron cream",
+                "price": 200,
+                "wine_pairing": "Château d'Yquem Sauternes 2018"
+            },
+            {
+                "course": "Fish",
+                "description": "Seared wild turbot with Beluga lentils, white asparagus, and caviar beurre blanc",
+                "price": 350,
+                "wine_pairing": "Château Margaux Blanc 2016"
+            },
+            {
+                "course": "Meat",
+                "description": "Wagyu beef Rossini with black truffle, seared foie gras, and Madeira reduction",
+                "price": 500,
+                "wine_pairing": "Château Pétrus Pomerol 2014"
+            },
+            {
+                "course": "Cheese",
+                "description": "Assortment of rare and aged French cheeses with truffle honey and gold-flecked crackers",
+                "price": 250,
+                "wine_pairing": "Château Mouton Rothschild Pauillac 2015"
+            },
+            {
+                "course": "Dessert",
+                "description": "Louis XV chocolate mousse cake with gold leaf and candied violets",
+                "price": 200,
+                "wine_pairing": "Château Climens Barsac 2017"
+            }
+        ],
+        "grand_total": 1950,
+        "dining_room_description": "Le Festin Opulent offers a dining experience fit for royalty in the heart of the South of France's most glamorous casino. The elegant dining room is adorned with gold accents, shimmering chandeliers, and opulent silk drapery. The expansive floor-to-ceiling windows offer breathtaking views of the Mediterranean coastline, while the indulgent menu showcases the most exquisite and luxurious ingredients, masterfully crafted into a truly decadent feast."
+    },
+    
+    {
+        "location": "Four Seasons Mykonos, Greece",
+        "restaurant_name": "The Golden Aegean",
+        "chef_name": "Chef Stavros Papadopoulos",
+        "tasting_menu": [
+            {
+                "course": "Amuse-Bouche",
+                "description": "Filo-wrapped Kalamata olives with gold leaf, served on a bed of ouzo-infused tomato jam",
+                "price": 100,
+                "wine_pairing": "Taittinger Comtes de Champagne Blanc de Blancs 2010"
+            },
+            {
+                "course": "Appetizer",
+                "description": "Duo of seared scallops and tiger prawns with Greek saffron and white truffle aioli",
+                "price": 200,
+                "wine_pairing": "Domaine Sigalas Assyrtiko Santorini 2020"
+            },
+            {
+                "course": "Salad",
+                "description": "Golden beet and goat cheese salad with pomegranate molasses and 24-karat gold leaf",
+                "price": 150,
+                "wine_pairing": "Alpha Estate Axia Malagousia 2019"
+            },
+            {
+                "course": "Fish",
+                "description": "Grilled wild sea bass with Aegean sea urchin butter, fennel confit, and champagne foam",
+                "price": 300,
+                "wine_pairing": "Domaine Gerovassiliou Viognier Epanomi 2019"
+            },
+            {
+                "course": "Meat",
+                "description": "Aged lamb rack with Mykonian honey glaze, black truffle moussaka, and gold leaf-flecked orzo",
+                "price": 400,
+                "wine_pairing": "Kir-Yianni Ramnista Xinomavro Naoussa 2016"
+            },
+            {
+                "course": "Cheese",
+                "description": "Assortment of premium Greek cheeses with fig preserves, gold-dusted almonds, and honeycomb",
+                "price": 250,
+                "wine_pairing": "Ktima Pavlidis Thema Red Drama 2017"
+            },
+            {
+                "course": "Dessert",
+                "description": "Mastiha-infused chocolate mousse with gold leaf and rosewater-scented baklava crumble",
+                "price": 150,
+                "wine_pairing": "Muscat of Samos Nectar 2017"
+            }
+        ],
+        "grand_total": 1550,
+        "dining_room_description": "The Golden Aegean offers an unparalleled dining experience, combining the finest ingredients from the Greek islands with the most luxurious and decadent touches. The elegant dining room features stunning panoramic views of the Aegean Sea, while the outdoor terrace allows guests to dine under the stars. The menu showcases the best of traditional Greek cuisine, reimagined with an opulent twist, for an unforgettable gastronomic experience."
+    },
+    
+    {
+        "location": "Four Seasons Palazzo Siciliano, Sicily",
+        "restaurant_name": "La Cucina dei Sogni",
+        "chef_name": "Chef Alessandro De Angelis",
+        "tasting_menu": [
+            {
+                "course": "Amuse-Bouche",
+                "description": "Crispy arancini with wild mushroom and black truffle filling",
+                "price": 75,
+                "wine_pairing": "Franciacorta Ca' del Bosco Cuvée Annamaria Clementi 2010"
+            },
+            {
+                "course": "Appetizer",
+                "description": "Seared foie gras with fig balsamic glaze and aged Parmigiano-Reggiano crisp",
+                "price": 150,
+                "wine_pairing": "Barolo Gaja Sperss 2016"
+            },
+            {
+                "course": "Pasta",
+                "description": "Handmade pappardelle with slow-cooked wild boar ragù and shaved Pecorino Romano",
+                "price": 100,
+                "wine_pairing": "Brunello di Montalcino Biondi Santi Riserva 2013"
+            },
+            {
+                "course": "Fish",
+                "description": "Grilled Mediterranean langoustines with saffron risotto and lobster bisque reduction",
+                "price": 200,
+                "wine_pairing": "Sassicaia Tenuta San Guido 2018"
+            },
+            {
+                "course": "Meat",
+                "description": "Osso buco with gremolata, truffle-infused polenta, and Barolo demi-glace",
+                "price": 250,
+                "wine_pairing": "Amarone della Valpolicella Quintarelli Riserva 2009"
+            },
+            {
+                "course": "Cheese",
+                "description": "Selection of fine Italian cheeses with fruit compote, artisanal bread, and balsamic pearls",
+                "price": 100,
+                "wine_pairing": "Tignanello Antinori 2017"
+            },
+            {
+                "course": "Dessert",
+                "description": "Tiramisu al limoncello with candied lemon zest and pistachio crumble",
+                "price": 75,
+                "wine_pairing": "Moscato d'Asti Vietti Cascinetta 2020"
+            }
+        ],
+        "grand_total": 950,
+        "dining_room_description": "La Cucina dei Sogni welcomes guests to a world of unparalleled Italian luxury, set within the majestic confines of a historic Sicilian palazzo. The opulent dining room is adorned with frescoes, marble floors, and crystal chandeliers, providing an elegant and romantic atmosphere. The menu, curated by renowned Chef Alessandro De Angelis, celebrates the finest Italian ingredients and traditional dishes, while an expert sommelier ensures the perfect wine pairings for a truly unforgettable dining experience."
+    },
+    
+    {
+        "location": "Four Seasons Skyscraper, New York City",
+        "restaurant_name": "Parkview Elegance",
+        "chef_name": "Chef Thomas Kingsley",
+        "tasting_menu": [
+            {
+                "course": "Amuse-Bouche",
+                "description": "Kumamoto oyster with cucumber mignonette and smoked caviar",
+                "price": 85,
+                "wine_pairing": "Dom Pérignon Vintage 2010"
+            },
+            {
+                "course": "Appetizer",
+                "description": "Butter-poached Maine lobster with parsnip purée, microgreens, and saffron beurre blanc",
+                "price": 175,
+                "wine_pairing": "Chardonnay Peter Michael Ma Belle-Fille 2018"
+            },
+            {
+                "course": "Soup",
+                "description": "Creamy wild mushroom bisque with black truffle foam and brioche croutons",
+                "price": 100,
+                "wine_pairing": "Pinot Noir Kosta Browne Russian River Valley 2018"
+            },
+            {
+                "course": "Fish",
+                "description": "Seared diver scallops with cauliflower purée, caviar, and Champagne beurre blanc",
+                "price": 150,
+                "wine_pairing": "Puligny-Montrachet Domaine Leflaive Les Pucelles 2016"
+            },
+            {
+                "course": "Meat",
+                "description": "Wagyu beef tenderloin with potato gratin, foie gras, and Perigord truffle jus",
+                "price": 350,
+                "wine_pairing": "Cabernet Sauvignon Harlan Estate 2014"
+            },
+            {
+                "course": "Cheese",
+                "description": "Selection of artisanal cheeses with fruit preserves, Marcona almonds, and walnut-raisin bread",
+                "price": 85,
+                "wine_pairing": "Château d'Yquem Sauternes 2009"
+            },
+            {
+                "course": "Dessert",
+                "description": "Dark chocolate soufflé with passion fruit coulis and Tahitian vanilla ice cream",
+                "price": 75,
+                "wine_pairing": "Taylor Fladgate 20 Year Old Tawny Port"
+            }
+        ],
+        "grand_total": 1020,
+        "dining_room_description": "Parkview Elegance offers an exquisite dining experience in a sophisticated setting, high above the city on the 55th floor of the Four Seasons Skyscraper. The floor-to-ceiling windows provide breathtaking panoramic views of Central Park, while the opulent dining room features plush velvet seating, crystal chandeliers, and fine art. The menu, crafted by Chef Thomas Kingsley, showcases the finest ingredients and innovative techniques, paired with a remarkable wine list for an unforgettable culinary journey."
+    },
+    
+    {
+        "location": "Four Seasons Ice and Geyser Palace, Iceland",
+        "restaurant_name": "Aurora Borealis",
+        "chef_name": "Chef Hyeon Min-jun",
+        "tasting_menu": [
+            {
+                "course": "Amuse-Bouche",
+                "description": "Seared Arctic char tartare with gochujang aioli and crispy seaweed",
+                "price": 30,
+                "wine_pairing": "Champagne Billecart-Salmon Brut Réserve"
+            },
+            {
+                "course": "Appetizer",
+                "description": "Icelandic lamb mandu with fermented cabbage and doenjang dipping sauce",
+                "price": 50,
+                "wine_pairing": "Riesling Egon Müller Scharzhofberger Kabinett 2019"
+            },
+            {
+                "course": "Soup",
+                "description": "Miso and dulse seaweed soup with smoked tofu and wild mushrooms",
+                "price": 35,
+                "wine_pairing": "Gruner Veltliner Hirsch Kammern Heiligenstein 2018"
+            },
+            {
+                "course": "Fish",
+                "description": "Pan-seared Atlantic cod with kimchi fried rice and pickled radish",
+                "price": 65,
+                "wine_pairing": "Chardonnay Kistler Vine Hill Vineyard 2017"
+            },
+            {
+                "course": "Meat",
+                "description": "Bulgogi-marinated reindeer with Icelandic barley risotto and ssamjang sauce",
+                "price": 85,
+                "wine_pairing": "Pinot Noir Domaine de la Romanée-Conti Echézeaux 2015"
+            },
+            {
+                "course": "Dessert",
+                "description": "Yuzu-infused Skyr mousse with honeycomb and mixed berry coulis",
+                "price": 45,
+                "wine_pairing": "Tokaji Aszú 6 Puttonyos Oremus 2013"
+            },
+            {
+                "course": "Petit Fours",
+                "description": "Matcha-dusted Icelandic chocolate truffles and sesame-honey brittle",
+                "price": 25,
+                "wine_pairing": "Sauternes Château Coutet 2016"
+            }
+        ],
+        "grand_total": 335,
+        "dining_room_description": "Aurora Borealis is a breathtaking dining experience that combines the beauty of Icelandic nature with the bold flavors of Korean cuisine. Set within the enchanting Four Seasons Ice and Geyser Palace, the restaurant features a magnificent ice-carved chandelier, floor-to-ceiling windows overlooking geysers, and plush seating designed to reflect the Northern Lights. Chef Hyeon Min-jun masterfully blends the finest local ingredients with Korean culinary techniques for an unforgettable fusion feast."
+    },
+    
+    {
+        "location": "Four Seasons Jungle Retreat, South America",
+        "restaurant_name": "Pescado Sagrado",
+        "chef_name": "Chef Alejandro Torres",
+        "tasting_menu": [
+            {
+                "course": "Amuse-Bouche",
+                "description": "Wild-caught Amazonian shrimp ceviche with lime, mango, and aji amarillo",
+                "price": 35,
+                "wine_pairing": "Champagne Dom Pérignon Vintage 2010"
+            },
+            {
+                "course": "Appetizer",
+                "description": "Tiradito of sustainably caught sea bass with avocado mousse and passion fruit vinaigrette",
+                "price": 50,
+                "wine_pairing": "Albariño Pazo Señorans Selección de Añada 2015"
+            },
+            {
+                "course": "Salad",
+                "description": "Heart of palm and quinoa salad with pomegranate seeds and chia-lime dressing",
+                "price": 40,
+                "wine_pairing": "Sauvignon Blanc Cloudy Bay Te Koko 2017"
+            },
+            {
+                "course": "Fish",
+                "description": "Cured Patagonian toothfish with chile-infused tapioca pearls and tamarillo sauce",
+                "price": 65,
+                "wine_pairing": "Chardonnay Catena Zapata Adrianna Vineyard White Bones 2018"
+            },
+            {
+                "course": "Main Course",
+                "description": "Amazonian catfish sashimi with heirloom tomato salsa and a side of purple corn arepas",
+                "price": 75,
+                "wine_pairing": "Chenin Blanc François Chidaine Montlouis-sur-Loire Les Bournais 2016"
+            },
+            {
+                "course": "Pre-Dessert",
+                "description": "Acai sorbet with cacao nibs and an edible flower garnish",
+                "price": 25,
+                "wine_pairing": "Moscato d'Asti Elio Perrone Sourgal 2020"
+            },
+            {
+                "course": "Dessert",
+                "description": "Grilled pineapple carpaccio with coconut foam and guava coulis",
+                "price": 45,
+                "wine_pairing": "Sauternes Château d'Yquem 2011"
+            }
+        ],
+        "grand_total": 335,
+        "dining_room_description": "Pescado Sagrado offers an unparalleled dining experience in the heart of the South American jungle, accessible only by helicopter. This exclusive Four Seasons Jungle Retreat restaurant blends modern culinary techniques with the rich history and flavors of indigenous culture. The elegantly designed dining room features floor-to-ceiling windows that immerse guests in the lush jungle surroundings, while the open-air terrace provides a unique opportunity to dine under the stars."
+    },
+    
+    {
+        "location": "Four Seasons Hotel, San Francisco",
+        "restaurant_name": "Sol y Sakura",
+        "chef_name": "Chef Isabella Sánchez",
+        "tasting_menu": [
+            {
+                "course": "Amuse-Bouche",
+                "description": "Tuna and piquillo pepper temaki with shiso and Spanish olive oil",
+                "price": 20,
+                "wine_pairing": "Cava Recaredo Brut Nature Gran Reserva 2015"
+            },
+            {
+                "course": "Appetizer",
+                "description": "Seared scallops with jamón ibérico and yuzu miso sauce",
+                "price": 45,
+                "wine_pairing": "Albariño Do Ferreiro Cepas Vellas 2019"
+            },
+            {
+                "course": "Soup",
+                "description": "Gazpacho with uni, daikon radish, and wasabi oil",
+                "price": 30,
+                "wine_pairing": "Sancerre Domaine Vacheron Belle Dame 2018"
+            },
+            {
+                "course": "Fish",
+                "description": "Grilled octopus with shishito peppers, sake-glazed eggplant, and romesco sauce",
+                "price": 60,
+                "wine_pairing": "Verdejo Belondrade y Lurton 2018"
+            },
+            {
+                "course": "Meat",
+                "description": "Wagyu beef tataki with pimientos de Padrón, garlic chips, and ponzu reduction",
+                "price": 70,
+                "wine_pairing": "Rioja Roda I Reserva 2012"
+            },
+            {
+                "course": "Rice",
+                "description": "Saffron-infused sushi rice with roasted Mediterranean vegetables and crispy nori",
+                "price": 40,
+                "wine_pairing": "Chardonnay Marimar Estate La Màsía 2018"
+            },
+            {
+                "course": "Dessert",
+                "description": "Green tea and pistachio crème brûlée with a sesame brittle",
+                "price": 25,
+                "wine_pairing": "Pedro Ximénez Toro Albala Don PX Gran Reserva 1987"
+            }
+        ],
+        "grand_total": 290,
+        "dining_room_description": "Sol y Sakura presents a stunning fusion of Spanish and Japanese cuisines in the heart of San Francisco at the luxurious Four Seasons Hotel. The elegant dining room showcases breathtaking views of the San Francisco Bay through its expansive windows, while a stylish outdoor terrace allows guests to enjoy the city's renowned skyline. The restaurant's unique menu, designed by acclaimed Chef Isabella Sánchez, offers a harmonious blend of flavors that will transport diners on a remarkable culinary journey."
     }
 
 ];
