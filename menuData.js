@@ -1905,6 +1905,248 @@ const menuData = [
         ],
         "grand_total": 290,
         "dining_room_description": "Sol y Sakura presents a stunning fusion of Spanish and Japanese cuisines in the heart of San Francisco at the luxurious Four Seasons Hotel. The elegant dining room showcases breathtaking views of the San Francisco Bay through its expansive windows, while a stylish outdoor terrace allows guests to enjoy the city's renowned skyline. The restaurant's unique menu, designed by acclaimed Chef Isabella Sánchez, offers a harmonious blend of flavors that will transport diners on a remarkable culinary journey."
+    },
+    
+    {
+        "location": "Four Seasons Hotel, Reims",
+        "restaurant_name": "Le Papillon d'Or",
+        "chef_name": "Chef Claude Martin",
+        "tasting_menu": [
+            {
+                "course": "Amuse-Bouche",
+                "description": "Smoked salmon mousse on blinis with caviar and chives",
+                "price": 25,
+                "wine_pairing": "Taittinger Brut Réserve"
+            },
+            {
+                "course": "Appetizer",
+                "description": "Seared foie gras with poached pear and brioche toast",
+                "price": 45,
+                "wine_pairing": "Billecart-Salmon Cuvée Nicolas François Billecart 2006"
+            },
+            {
+                "course": "Fish",
+                "description": "Sole meunière with brown butter, capers, and lemon",
+                "price": 55,
+                "wine_pairing": "Louis Roederer Cristal Brut 2012"
+            },
+            {
+                "course": "Meat",
+                "description": "Roasted rack of lamb with ratatouille and rosemary jus",
+                "price": 65,
+                "wine_pairing": "Moët & Chandon Grand Vintage Rosé 2013"
+            },
+            {
+                "course": "Cheese",
+                "description": "Selection of regional French cheeses with fruit compote and walnut bread",
+                "price": 35,
+                "wine_pairing": "Pol Roger Brut Vintage 2012"
+            },
+            {
+                "course": "Dessert",
+                "description": "Tarte Tatin with crème fraîche and caramel sauce",
+                "price": 30,
+                "wine_pairing": "Veuve Clicquot Demi-Sec"
+            }
+        ],
+        "grand_total": 255,
+        "dining_room_description": "Le Papillon d'Or is an iconic Four Seasons restaurant located in the heart of Reims, adorned with exquisite Art Nouveau details and luxurious furnishings. The restaurant offers an exceptional dining experience, featuring a menu of traditional French cuisine expertly paired with a selection of both prestigious and affordable champagnes. The elegant atmosphere and extraordinary service make Le Papillon d'Or the perfect destination for a truly unforgettable evening."
+    },
+    
+    {
+        "location": "Four Seasons Hotel, Paris",
+        "restaurant_name": "Le Château des Choux",
+        "chef_name": "Chef Marie Dubois",
+        "tasting_menu": [
+            {
+                "course": "Amuse-Bouche",
+                "description": "Mini gougères with Comté cheese and fresh herbs",
+                "price": 20,
+                "wine_pairing": "Champagne Bollinger Special Cuvée Brut"
+            },
+            {
+                "course": "Appetizer",
+                "description": "Savory éclair filled with goat cheese mousse, sun-dried tomatoes, and basil",
+                "price": 30,
+                "wine_pairing": "Sancerre Domaine Vacheron 2020"
+            },
+            {
+                "course": "Fish",
+                "description": "Salmon mousse-filled profiteroles with dill cream sauce",
+                "price": 40,
+                "wine_pairing": "Chablis Domaine William Fèvre 2019"
+            },
+            {
+                "course": "Meat",
+                "description": "Savory religieuse with duck confit and foie gras mousse, topped with truffle glaze",
+                "price": 50,
+                "wine_pairing": "Saint-Émilion Château Figeac 2015"
+            },
+            {
+                "course": "Pre-Dessert",
+                "description": "Lemon meringue éclair with tangy lemon curd filling and torched meringue",
+                "price": 25,
+                "wine_pairing": "Muscat de Beaumes-de-Venise Domaine de Durban 2018"
+            },
+            {
+                "course": "Dessert",
+                "description": "Classic chocolate éclair with rich Valrhona chocolate cream and chocolate glaze",
+                "price": 25,
+                "wine_pairing": "Banyuls Domaine La Tour Vieille 2018"
+            },
+            {
+                "course": "Petit Four",
+                "description": "Raspberry and pistachio religieuse with raspberry cream and pistachio mousseline",
+                "price": 25,
+                "wine_pairing": "Loupiac Château du Cros 2016"
+            }
+        ],
+        "grand_total": 215,
+        "dining_room_description": "Le Château des Choux, nestled within a lavish Parisian palace, is a truly unique dining experience that highlights the exquisite art of cream puff pastry. The elegant setting, with its opulent chandeliers and plush velvet seating, provides the perfect backdrop for Chef Marie Dubois's innovative savory and sweet creations. Each dish is thoughtfully paired with a wine from various French regions, showcasing the diverse flavors of the country's rich culinary heritage."
+    },
+    
+     {
+        "location": "Four Seasons Hotel, Malaga, Spain",
+        "restaurant_name": "La Esencia",
+        "chef_name": "Chef Alejandro Torres",
+        "tasting_menu": [
+            {
+                "course": "Amuse-Bouche",
+                "description": "Jamon Iberico with pan con tomate",
+                "price": 25,
+                "wine_pairing": "Cava Gramona Imperial Gran Reserva Brut 2016"
+            },
+            {
+                "course": "Appetizer",
+                "description": "Salmorejo with quail egg and crispy Serrano ham",
+                "price": 30,
+                "wine_pairing": "Albariño Pazo de Señoráns 2020"
+            },
+            {
+                "course": "Fish",
+                "description": "Grilled octopus with potato cream and smoked paprika",
+                "price": 45,
+                "wine_pairing": "Godello Bodegas Avancia 2019"
+            },
+            {
+                "course": "Meat",
+                "description": "Cordero al Chilindrón – Slow-cooked lamb with red pepper, tomato, and onion sauce",
+                "price": 50,
+                "wine_pairing": "Rioja Marqués de Riscal Reserva 2015"
+            },
+            {
+                "course": "Cheese",
+                "description": "Spanish cheese selection with quince paste, Marcona almonds, and olive oil crackers",
+                "price": 35,
+                "wine_pairing": "Priorat Clos Mogador 2017"
+            },
+            {
+                "course": "Dessert",
+                "description": "Torrijas – Caramelized brioche soaked in cinnamon-infused milk, served with vanilla ice cream",
+                "price": 30,
+                "wine_pairing": "Pedro Ximénez Bodegas Toro Albala Don PX Gran Reserva 1987"
+            }
+        ],
+        "grand_total": 215,
+        "dining_room_description": "La Esencia, located in the heart of Malaga, showcases the rich flavors of Spanish cuisine, combining time-honored recipes with modern culinary techniques. The elegant dining room features warm colors, rustic wooden accents, and vibrant Spanish artwork. The stunning views of the Mediterranean Sea provide a breathtaking backdrop for an unforgettable gastronomic experience, enhanced by a selection of the finest Spanish wines and cava."
+    },
+    
+    {
+        "location": "Four Seasons Hotel London at Ten Trinity Square",
+        "restaurant_name": "La Dame de Pic",
+        "chef_name": "Chef Anne-Sophie Pic",
+        "tasting_menu": [
+            {
+                "course": "Amuse-Bouche",
+                "description": "Red pepper and raspberry gazpacho with basil and coriander",
+                "price": 20,
+                "wine_pairing": "Champagne Krug Grande Cuvée"
+            },
+            {
+                "course": "Appetizer",
+                "description": "Smoked eel with beetroot, horseradish, and granny smith apple",
+                "price": 35,
+                "wine_pairing": "Sancerre François Cotat Les Monts Damnés 2019"
+            },
+            {
+                "course": "Fish",
+                "description": "Pan-seared scallops with cauliflower, brown butter, and curry leaf",
+                "price": 45,
+                "wine_pairing": "Chablis Domaine William Fèvre Grand Cru Les Clos 2018"
+            },
+            {
+                "course": "Meat",
+                "description": "Venison with chestnuts, juniper berries, and parsnip purée",
+                "price": 55,
+                "wine_pairing": "Pomerol Château Gazin 2016"
+            },
+            {
+                "course": "Cheese",
+                "description": "Selection of French cheeses with fig jam and walnut bread",
+                "price": 30,
+                "wine_pairing": "Gevrey-Chambertin Domaine Fourrier Vieilles Vignes 2017"
+            },
+            {
+                "course": "Dessert",
+                "description": "Chocolate with passion fruit, ginger, and hazelnut crumble",
+                "price": 25,
+                "wine_pairing": "Banyuls Domaine La Tour Vieille Rimage 2018"
+            }
+        ],
+        "grand_total": 210,
+        "dining_room_description": "La Dame de Pic, a Michelin-starred French restaurant, offers an exquisite culinary experience in the heart of London. The elegant dining room features soft lighting, warm colors, and luxurious furnishings, creating a serene atmosphere for guests to enjoy. Chef Anne-Sophie Pic's contemporary cuisine focuses on aromatic herbs and spices, beautifully showcasing her passion for creating memorable, harmonious dishes. Each course is paired with a carefully selected wine, enhancing the flavors and providing a truly unforgettable dining experience."
+    },
+    
+    {
+        "location": "Four Seasons Hotel George V, Paris",
+        "restaurant_name": "The Imperial Room",
+        "chef_name": "Chef Pierre Gagnaire",
+        "tasting_menu": [
+            {
+                "course": "Amuse-Bouche",
+                "description": "Caviar with blinis and crème fraîche",
+                "price": 200,
+                "wine_pairing": "Dom Pérignon Vintage 2010"
+            },
+            {
+                "course": "Appetizer",
+                "description": "Seared scallops with black truffle and Jerusalem artichoke purée",
+                "price": 400,
+                "wine_pairing": "Meursault Domaine des Comtes Lafon Les Perrières 2018"
+            },
+            {
+                "course": "Soup",
+                "description": "Lobster bisque with saffron and cognac",
+                "price": 350,
+                "wine_pairing": "Château-Grillet 2015"
+            },
+            {
+                "course": "Fish",
+                "description": "Turbot with Champagne sauce, caviar, and asparagus",
+                "price": 450,
+                "wine_pairing": "Corton-Charlemagne Grand Cru Domaine Coche-Dury 2017"
+            },
+            {
+                "course": "Meat",
+                "description": "Roasted duck with orange and kumquat, foie gras and black currant sauce",
+                "price": 500,
+                "wine_pairing": "Château Mouton Rothschild 2009"
+            },
+            {
+                "course": "Cheese",
+                "description": "Selection of French cheeses with truffle honey and walnut bread",
+                "price": 300,
+                "wine_pairing": "Château d'Yquem 1999"
+            },
+            {
+                "course": "Dessert",
+                "description": "Crème brûlée with vanilla and raspberry, gold leaf garnish",
+                "price": 350,
+                "wine_pairing": "Krug Clos du Mesnil 2006"
+            }
+        ],
+        "grand_total": 3500,
+        "dining_room_description": "The Imperial Room is a luxurious restaurant located within the Four Seasons Hotel George V in Paris. Known for its opulent décor and historic charm, the restaurant features hand-painted silk walls, ornate plasterwork ceilings, polished wood tables, and plush velvet chairs. A grand chandelier made of crystal and gold serves as the centerpiece of this classic, elegant dining space. The sophisticated menu, created by Chef Pierre Gagnaire, showcases classic French cuisine with a modern twist, using the finest ingredients like caviar, truffles, and foie gras. The impeccable, attentive service and extensive wine list, including rare vintages and exclusive labels, complete the unforgettable dining experience at The Imperial Room."
     }
 
 ];
