@@ -6,9 +6,12 @@ body {
     padding: 0;
 }
 
+ul.restaurant-list {
+  list-style: none;
+}
+
 header {
     padding: 20px 0;
-    position: relative;
 }
 
 header h1 {
@@ -71,10 +74,6 @@ padding: 0;
 border-bottom: 1px solid #e0e0e0;
 margin-bottom: 15px;
 padding-bottom: 15px;
-}
-
-.course-item:last-child {
-border-bottom: none;
 }
 
 .course-title {
