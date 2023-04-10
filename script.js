@@ -7,6 +7,9 @@ document.addEventListener("DOMContentLoaded", function () {
         const restaurantItem = document.createElement("li");
         const restaurantLink = document.createElement("a");
         restaurantLink.href = "#";
+        restaurantLink.setAttribute('data-bs-toggle', 'collapse'); 
+        restaurantLink.setAttribute('data-bs-target', '#sidebar'); 
+        
         restaurantLink.textContent = `${menu.restaurant_name} - ${menu.location}`;
 
         restaurantLink.addEventListener("click", (e) => {
