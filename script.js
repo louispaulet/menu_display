@@ -32,16 +32,21 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
         const menuTitle = document.createElement('h2');
+        menuTitle.classList.add('text-center', 'mb-4', 'border-bottom', 'pb-2');
         menuTitle.textContent = menu.restaurant_name;
         menuCard.appendChild(menuTitle);
 
+
         const menuLocation = document.createElement('h3');
-        menuLocation.textContent = menu.location;
+        menuLocation.textContent = `\u{1F30D} ${menu.location}`;
         menuCard.appendChild(menuLocation);
 
+
         const chefName = document.createElement('p');
+        chefName.classList.add('fw-bold', 'fst-italic', 'text-center');
         chefName.textContent = menu.chef_name;
         menuCard.appendChild(chefName);
+
 
         const diningDescription = document.createElement('p');
         diningDescription.textContent = menu.dining_room_description;

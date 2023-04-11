@@ -1,10 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display+SC:ital,wght@1,700&display=swap');
+
 body {
-    font-family: 'Playfair Display', serif;
+    /*font-family: 'Playfair Display', serif;*/
+    font-family: 'Montserrat', sans-serif;
     background-color: #f0ebe1;
     color: #4a4a4a;
     margin: 0;
     padding: 0;
 }
+
+.menu-card h2 {
+  font-family: 'Playfair Display SC', serif;
+}
+
 
 ul.restaurant-list {
   list-style: none;
