@@ -1,5 +1,7 @@
 # Exquisite Menus 🍽️ 🥂
 
+![Exquisite Menus Screenshot](screenshot.png)
+
 Welcome to Exquisite Menus, the elegant tasting menu website that displays the culinary masterpieces from world-class restaurants. With a fancy yet light and modern design, our platform showcases the most enticing dishes and wine pairings, creating a delightful experience for food enthusiasts.
 
 ## Features 🌟
