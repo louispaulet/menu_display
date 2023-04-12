@@ -51,6 +51,36 @@ document.addEventListener("DOMContentLoaded", function () {
         const diningDescription = document.createElement('p');
         diningDescription.textContent = menu.dining_room_description;
         menuCard.appendChild(diningDescription);
+        
+        // Create the button wrapper div
+        const buttonWrapper = document.createElement('div');
+        buttonWrapper.classList.add('d-flex', 'justify-content-center', 'my-4');
+
+        // Create the show/hide images button
+        const showHideImagesButton = document.createElement('button');
+        showHideImagesButton.classList.add('btn', 'btn-warning', 'show_hide_images');
+        showHideImagesButton.setAttribute('type', 'button');
+        showHideImagesButton.textContent = '\u{1F4A3} Show ugly images';
+
+        // Append the button to the wrapper div
+        buttonWrapper.appendChild(showHideImagesButton);
+
+        // Append the wrapper div to the desired parent element, e.g., menuCard
+        menuCard.appendChild(buttonWrapper);
+
+        // Add the event listener to the button
+        showHideImagesButton.addEventListener('click', function() {
+          const images = document.querySelectorAll('.course-img');
+          images.forEach(function(image) {
+            const display = window.getComputedStyle(image).display;
+            if (display === 'none') {
+              image.style.display = 'block';
+            } else {
+              image.style.display = 'none';
+            }
+          });
+        });
+
 
         const courseList = document.createElement('ul');
         courseList.classList.add('course-list');
@@ -123,18 +153,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Display the first menu by default
     displayMenu(0);
-    
-    document.querySelector(".show_hide_images").addEventListener("click", function() {
-      const images = document.querySelectorAll(".course-img");
-      images.forEach(function(image) {
-        const display = window.getComputedStyle(image).display;
-        if (display === "none") {
-          image.style.display = "block";
-        } else {
-          image.style.display = "none";
-        }
-      });
-    });
     
 });
 
