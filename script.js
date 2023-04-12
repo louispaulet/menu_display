@@ -51,6 +51,36 @@ document.addEventListener("DOMContentLoaded", function () {
         const diningDescription = document.createElement('p');
         diningDescription.textContent = menu.dining_room_description;
         menuCard.appendChild(diningDescription);
+        
+        // Create the button wrapper div
+        const buttonWrapper = document.createElement('div');
+        buttonWrapper.classList.add('d-flex', 'justify-content-center', 'my-4');
+
+        // Create the show/hide images button
+        const showHideImagesButton = document.createElement('button');
+        showHideImagesButton.classList.add('btn', 'btn-warning', 'show_hide_images');
+        showHideImagesButton.setAttribute('type', 'button');
+        showHideImagesButton.textContent = '\u{1F4A3} Show ugly images';
+
+        // Append the button to the wrapper div
+        buttonWrapper.appendChild(showHideImagesButton);
+
+        // Append the wrapper div to the desired parent element, e.g., menuCard
+        menuCard.appendChild(buttonWrapper);
+
+        // Add the event listener to the button
+        showHideImagesButton.addEventListener('click', function() {
+          const images = document.querySelectorAll('.course-img');
+          images.forEach(function(image) {
+            const display = window.getComputedStyle(image).display;
+            if (display === 'none') {
+              image.style.display = 'block';
+            } else {
+              image.style.display = 'none';
+            }
+          });
+        });
+
 
         const courseList = document.createElement('ul');
         courseList.classList.add('course-list');
@@ -63,6 +93,24 @@ document.addEventListener("DOMContentLoaded", function () {
             courseTitle.classList.add('course-title');
             courseTitle.textContent = course.course;
             courseItem.appendChild(courseTitle);
+            
+            // Create image element
+            const courseImage = document.createElement('img');
+            courseImage.classList.add('course-image', 'course-img');
+
+            // Create the image filename
+            const chefName = menu.chef_name.replace(/ /g, '_');
+            const restaurantName = menu.restaurant_name.replace(/ /g, '_');
+            const courseName = course.course.replace(/ /g, '_');
+            const description = course.description.replace(/ /g, '_');
+            const imageFilename = `image_generation/square_images/${chefName}-${restaurantName}-${courseName}-${description}.jpg.jpg`.replace(/ |'/g, '_');
+
+
+            // Set the image source
+            courseImage.src = imageFilename;
+
+            // Add the image to the course item
+            courseItem.appendChild(courseImage);
 
             const courseDescription = document.createElement('p');
             courseDescription.classList.add('course-description');
@@ -78,6 +126,8 @@ document.addEventListener("DOMContentLoaded", function () {
             winePairing.classList.add('wine-pairing');
             winePairing.innerHTML = `Wine Pairing: ${createWineLink(course.wine_pairing, course.wine_pairing)}`;
             courseItem.appendChild(winePairing);
+            
+            
 
 
 
@@ -103,6 +153,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Display the first menu by default
     displayMenu(0);
+    
 });
 
 
@@ -121,6 +172,9 @@ function createWineLink(wineName, displayText) {
   // Return the hyperlink as a string with the display text
   return '<a href="' + link + '" target="_blank">' + displayText + '</a>';
 }
+
+
+
 
 
 
