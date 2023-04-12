@@ -123,6 +123,19 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Display the first menu by default
     displayMenu(0);
+    
+    document.querySelector(".show_hide_images").addEventListener("click", function() {
+      const images = document.querySelectorAll(".course-img");
+      images.forEach(function(image) {
+        const display = window.getComputedStyle(image).display;
+        if (display === "none") {
+          image.style.display = "block";
+        } else {
+          image.style.display = "none";
+        }
+      });
+    });
+    
 });
 
 
@@ -141,6 +154,9 @@ function createWineLink(wineName, displayText) {
   // Return the hyperlink as a string with the display text
   return '<a href="' + link + '" target="_blank">' + displayText + '</a>';
 }
+
+
+
 
 
 
