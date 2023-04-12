@@ -63,6 +63,24 @@ document.addEventListener("DOMContentLoaded", function () {
             courseTitle.classList.add('course-title');
             courseTitle.textContent = course.course;
             courseItem.appendChild(courseTitle);
+            
+            // Create image element
+            const courseImage = document.createElement('img');
+            courseImage.classList.add('course-image', 'course-img');
+
+            // Create the image filename
+            const chefName = menu.chef_name.replace(/ /g, '_');
+            const restaurantName = menu.restaurant_name.replace(/ /g, '_');
+            const courseName = course.course.replace(/ /g, '_');
+            const description = course.description.replace(/ /g, '_');
+            const imageFilename = `image_generation/square_images/${chefName}-${restaurantName}-${courseName}-${description}.jpg.jpg`.replace(/ |'/g, '_');
+
+
+            // Set the image source
+            courseImage.src = imageFilename;
+
+            // Add the image to the course item
+            courseItem.appendChild(courseImage);
 
             const courseDescription = document.createElement('p');
             courseDescription.classList.add('course-description');
@@ -78,6 +96,8 @@ document.addEventListener("DOMContentLoaded", function () {
             winePairing.classList.add('wine-pairing');
             winePairing.innerHTML = `Wine Pairing: ${createWineLink(course.wine_pairing, course.wine_pairing)}`;
             courseItem.appendChild(winePairing);
+            
+            
 
 
 
